@@ -6,5 +6,6 @@ console.log (cardStyle)
 
 function setCard () {
   const input = document.getElementById(cardId.value);
-  console.log (input)
+  // console.log (input)
+  input.style.color = cardStyle.value 
 }
