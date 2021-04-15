@@ -52,7 +52,6 @@ function play(x) {
   } else if (bottom1 === middle2 && bottom1 === top3) {
       alert (bottom1 + ' wins!');
   }
-    
 }
 
 

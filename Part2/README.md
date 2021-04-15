@@ -1,4 +1,4 @@
-<img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
+  <img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
 
 # Poker Hand
 
@@ -126,7 +126,7 @@ In this step, we will target each card using the input fields that we created.
 - Create a button beneath the input fields. 
 - Assign two attributes to the button: 
     - A specific id.
-    - An onclick event called `setCard`.
+    - An onclick event called `setCard`.  
 - Open `index.js`
 - Create a function called `setCard` that captures the card element based off of the value (id) that is passed into first input field. This will be done using a combination of `getElementById` and the `value` property from the first variable we stored form the second step. 
 - `Console.log` the result, and check the developer console.
